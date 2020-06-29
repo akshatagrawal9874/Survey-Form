@@ -1,0 +1,10 @@
+*{
+  color:Blue;
+  background:linear-gradient(35deg,#CCFFFF,#FFCCCC);
+  font-family:Cambria;
+}
+#survey-form{
+  position:center;
+  text-align:center;
+  font-family:Cambria;
+}

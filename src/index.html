@@ -1,0 +1,62 @@
+<html>
+  <head><title id="title"><h1>Survey Form</title></head>
+    <main>
+      <center><h1>Survey Form</h1><center>
+      <p id="description">Use simple, clear language to briefly explain the topic and purpose of the survey. Your introduction only needs to be three or four sentences, or a couple of short paragraphs at most.
+
+Include the following useful information in your introduction:
+
+Your name or the name of the company or organization you represent
+The goal of the survey or what you're trying to find out
+How you'll be using the responses to make a difference
+If the responses are anonymous, confidential, or tracked
+Relevant instructions that aren't explained in the survey questions themselves
+Any consent statement or privacy policy required by your company or organization</p>
+      <form id="survey-form">
+        <label for="name" id="name-label">Name :</label>
+        <input type="text" id="name" name="name" placeholder="Enter your Name">
+        <br><br>
+        <label for="email" id="email-label">Email :</label>
+        <input type="email" id="email" name="email" placeholder="Enter your Email"><br><br>
+        <label for="number" id="number-label">Number :</label>
+        <input type="number" id="number" name="number" min="0"  placeholder="Enter your ID Number"><br><br>
+        <label for="city">City:</label>
+        <select id="dropdown" name="city"> <option value="indore">Indore</option>
+  <option value="dewas">Dewas</option>
+  <option value="Ujjain">Ujjain</option>
+  <option value="bhopal">Bhopal</option></select><br><br>
+        <fieldset>
+          <legend>Gender :</legend>
+         <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+        </fieldset>
+        <br><fieldset>
+          <legend>Please select your age ?</legend>
+          <input type="radio" id="age1" name="age" value="30">
+  <label for="age1">0 - 30</label><br>
+  <input type="radio" id="age2" name="age" value="60">
+  <label for="age2">31 - 60</label><br>  
+  <input type="radio" id="age3" name="age" value="100">
+  <label for="age3">61 - 100</label>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>What you have ?</legend>
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1"> I have a bike</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+<label for="vehicle2"> I have a car</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3"> I have a boat</label><br>
+        </fieldset><br>
+        <label for="experience">Experience :</label>
+        <textarea name="experience" rows="2" ></textarea>
+        <br><br>
+        <input type="submit" id="submit" value="Submit">
+      </form>
+    </main>
+</html>
