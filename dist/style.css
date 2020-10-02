@@ -1,8 +1,11 @@
-*{
+body{
+/*   make color of Text blue everywhere */
   color:Blue;
   background:linear-gradient(35deg,#CCFFFF,#FFCCCC);
   font-family:Cambria;
 }
+
+/* centering survey form to center */
 #survey-form{
   position:center;
   text-align:center;
